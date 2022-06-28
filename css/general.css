@@ -1,0 +1,205 @@
+/* 
+--- 01. TYPOGRAPHY SYSTEM
+- Font-size system (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 /
+ 30 / 36 / 44 / 52 / 62 / 74 / 
+ 86 / 98
+
+- Font weight: 
+DEFAULT: 400
+MEDIUM: 500
+SEMI-BOLD: 600
+BOLD : 700
+Primary-heading: 700
+
+- Line-height: 
+    Default: 1
+    Heading: 1.05
+    Secondary Heading: 1.2
+    Paragraph: 1.6
+    Large : 1.8
+
+- Letter Spacing:
+  -0.5px
+  0.75px
+
+--- 02. COLORS
+- Primary Color: #169cfd
+- Tints : #fdf2e9  #fae5d3, #eb984e
+- Shades: #cf711f #45260a
+- Grey Color: 
+#888
+#767676
+#6f6f6f;
+#555;
+#333;
+
+
+--- 05. SHADOWS
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06. BORDER-RADIUS
+SMALL : 9PX;
+BIG : 11PX;
+
+--- 07. WHITE SPACE
+- SPACING SYSTEM (px): 
+2 / 4 / 8 / 12 / 16 / 24 / 32 /
+ 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+
+  /* Doesnt work on safari */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+/*****************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*****************************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} 
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+*/
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-align-center {
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.heading-secondary {
+  font-size: 4.2rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.heading-tertiary {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.subheading {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  line-height: 1.2;
+}
+
+/* setting-classes */
+.text-align-center {
+  text-align: center;
+}
+
+/* Buttons */
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  color: #169cfd;
+  font-weight: 500;
+  text-decoration: none;
+  border: solid 1px;
+  padding: 0.8rem 1.6rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:visited {
+  background-color: #169cfd;
+  color: #fff;
+  border-color: #169cfd;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #169cfd;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #00487c;
+  text-decoration: underline;
+}
+
+.cta:link,
+.cta:visited {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #169cfd;
+  padding: 0.8rem 1.6rem;
+  border-radius: 7px;
+}
+
+.mar-bot-sm {
+  margin-bottom: 1.2rem !important;
+}
+
+.mar-bot-md {
+  margin-bottom: 2.4rem;
+}

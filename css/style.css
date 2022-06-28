@@ -1,0 +1,240 @@
+/* ****************** */
+/* HEADER SECTION */
+/* ****************** */
+.header-main {
+  padding: 0 5rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  display: inline-block;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #169cfd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 1px solid #169cfd;
+}
+.buttons-div {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+/* ******************** */
+/* SECTION HERO */
+/* ******************** */
+.section-hero {
+  /* height: 50rem; */
+  background-color: #f6f6f6;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #169cfd;
+  padding: 2.4rem !important;
+}
+
+.form-container input {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+
+.submit-btn {
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  background-color: #00487c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 2.8rem;
+}
+
+.hero-img {
+  width: 130%;
+}
+
+/* ***************** */
+/* SECTION JOBS */
+/* ***************** */
+.section-jobs {
+  padding: 4.8rem 0;
+}
+
+.blue-span {
+  color: #169cfd;
+  display: block;
+}
+
+/* ***************** */
+/* SECTION TESTIMONIALS */
+/* ***************** */
+.section-testimonials {
+  padding: 4.8rem 0;
+  background-color: #e7f5ff;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 4.8rem 3.2rem;
+  border-radius: 1.2rem;
+}
+
+.customer-img {
+  width: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.customer-name {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* ***************** */
+/* SECTION FEATURED-IN */
+/* ***************** */
+.section-featured-in {
+  padding: 4.8rem 0;
+  text-align: center;
+}
+
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured-company-logo {
+  display: inline-block;
+  width: 10%;
+}
+
+/* ***************** */
+/* SECTION FEATURED-IN */
+/* ***************** */
+.section-contact {
+  background-color: #e7f5ff;
+  margin-bottom: 4.8rem;
+}
+
+.section-contact .subheading {
+  color: #169cfd;
+}
+
+.contact-text-box {
+  width: 48rem;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contact-form input {
+  border: none;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+}
+
+.contact-img-box img {
+  width: 100%;
+}
+
+/* **************** */
+/* SSECTION FOOTER */
+/* **************** */
+
+.section-footer {
+  padding: 3.2rem;
+  height: 32rem;
+  background-image: url("../img/footer-img.png");
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 2fr;
+  margin-bottom: 2rem !important;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+.footer-link-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.copyright-text {
+  color: white;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright ion-icon {
+  color: white;
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}
