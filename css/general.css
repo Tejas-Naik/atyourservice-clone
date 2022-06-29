@@ -163,7 +163,7 @@ body {
 }
 
 .btn:hover,
-.btn:visited {
+.btn:active {
   background-color: #169cfd;
   color: #fff;
   border-color: #169cfd;
