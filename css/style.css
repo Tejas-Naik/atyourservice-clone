@@ -323,3 +323,111 @@
 .form-submit:active {
   background-color: rgba(22, 157, 253, 0.9);
 }
+
+/* ******************* */
+/* JOBS PAGE */
+/* ******************* */
+.section-available-jobs {
+  padding: 2.4rem;
+}
+
+.section-available-jobs .heading-primary {
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #e7f5ff;
+}
+
+.container-jobs {
+  display: grid;
+  grid-template-columns: 2.4fr 2.4fr 5.2fr;
+  gap: 2.4rem;
+}
+
+.filters {
+  border-radius: 3px;
+  height: 100%;
+  border: 1px solid black;
+
+  height: 43rem !important;
+}
+
+.filters-form {
+  padding: 1.2rem;
+}
+
+.filters label {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.filters input {
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  border-radius: 3px;
+  margin-bottom: 0.8rem !important;
+  width: 100%;
+  border: 1px solid #999;
+}
+
+.filters select {
+  border: 1px solid #999;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  border-radius: 3px;
+  margin-bottom: 0.8rem !important;
+  width: 100%;
+}
+
+.filters-heading {
+  background-color: #169cfd;
+  padding: 1.8rem;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.job-cards {
+  height: auto !important;
+  height: 60rem !important;
+  overflow: scroll;
+}
+
+.job-card {
+  cursor: pointer;
+  padding: 1.2rem;
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-bottom: 1.2rem;
+}
+
+.time-posted {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.job-title-card {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.company-name-card {
+  color: #169cfd;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.compensation-card {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.job-type-card,
+.job-location-card {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.job-description {
+  background-color: #e7f5ff;
+}
